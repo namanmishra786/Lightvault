@@ -1,7 +1,10 @@
 package main
+import (
+	"github.com/namanmishra786/Lightvault/cmd"
+)
 
-import "fmt"
+
 
 func main() {
-    fmt.Println("LightVault CLI working!")
+    cmd.Execute()
 }
